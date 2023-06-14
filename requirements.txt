@@ -1,0 +1,9 @@
+matplotlib>=3.7.1
+seaborn> 0.12.2
+scikit-learn >=1.2.2
+numpy>=1.23.5
+ultralytics>=8.0.105
+pandas>=2.0.1
+streamlit
+scikit-image>=0.18.3
+paddleocr>=2.0.1
