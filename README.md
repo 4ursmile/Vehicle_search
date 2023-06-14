@@ -29,8 +29,8 @@ Vehicle search is application help you find vehicle by license plate.
 First, clone this repo.
 
 ```console
-cd Vehicle_search
 git clone https://github.com/4ursmile/Vehicle_search
+cd Vehicle_search
 ```
 
 > I suggest using python 3.10.
