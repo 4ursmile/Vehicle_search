@@ -4,7 +4,7 @@ import os
 from ultralytics import YOLO
 
 class ObjectDetection:
-    def __init__(self, model_path="./YOLOV8N-LicensePlate/train/weights/best.pt", device = None):
+    def __init__(self, model_path="./YOLOV8N-LicensePlate2/train/weights/best.pt", device = None):
         print("Dectector model is loading...")
         self.model = YOLO(model_path)
         self.device = device
@@ -12,7 +12,7 @@ class ObjectDetection:
     def predict(self, frame, conf = 0.4, iou = 0.5, plot = False):
         """_summary_
         predict the frame and return the result
-        Args:
+        Args
             frame (_type_): frame to predict numpy array
             specific_class (list optional): List of class you want to extract. Defaults to None. Mean that you want to extract all class.
 

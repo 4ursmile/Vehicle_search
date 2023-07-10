@@ -6,4 +6,5 @@ ultralytics>=8.0.105
 pandas>=2.0.1
 streamlit
 scikit-image>=0.18.3
+protobuf==3.20.*
 paddleocr>=2.0.1

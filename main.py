@@ -17,7 +17,7 @@ with st.form("InputForm"):
     conf_val = st.slider("Confidence threshold", min_value=0.0, max_value=1.0, value=0.5, step=0.01)
     iou_val =  st.slider("IoU threshold", min_value=0.0, max_value=1.0, value=0.5, step=0.01)
     st.subheader("Input text")
-    input_text = st.text_input("Input text", "29A-12345")
+    input_text = st.text_input("Input text", "EK 090CN")
     st.subheader("Reload image?")
     st.caption("If you want to reload image, please check the box below")
     load_image = st.checkbox("Load image", value=False)
